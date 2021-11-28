@@ -4,8 +4,8 @@ Simple CLI to generate passwords
 
 ```
 $ pwdrng
-Generated password:
-8ly3180>j<O)3LpW
+Copied password to clipboard:
+bfx861[X<26-b^UT
 ```
 
 ## Prerequisite
@@ -23,8 +23,6 @@ $ git clone https://github.com/doctorpoor/pwdrng && cd pwdrng
 $ go build pwdrng.go
 $ cp pwdrng /usr/local/bin
 $ pwdrng
-Generated password:
-7,q8+67\E*Fi-w6C
 ```
 
 ### Homebrew
@@ -35,6 +33,4 @@ Generated password:
 $ brew tap doctorpoor/pwdrng
 $ brew install pwdrng
 $ pwdrng
-Generated password:
-n'5I3ffe$o9D6eDi
 ```
