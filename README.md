@@ -4,8 +4,8 @@ Simple command-line tool to generate passwords
 
 ```
 $ pwdrng
-Generated password:
-8ly3180>j<O)3LpW
+Copied password to clipboard:
+bfx861[X<26-b^UT
 ```
 
 ## Installation and Usage
