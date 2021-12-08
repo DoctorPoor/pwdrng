@@ -38,7 +38,7 @@ func shuffleString(input string) string {
 	return strings.Join(stringSlice, "")
 }
 
-func GeneratePassword() string {
+func GeneratePassword(passwordLength int) string {
 	rand.Seed(time.Now().Unix())
 
 	pwd := ""
@@ -54,7 +54,8 @@ func GeneratePassword() string {
 	getSingleCharacterFunctions[3] = getRandomSpecialCharater
 	functionArrayLength := len(getSingleCharacterFunctions)
 
-	for i := 0; i < 12; i++ {
+	max := passwordLength - len(pwd)
+	for i := 0; i < max; i++ {
 		pwd += getRandomCharacter(getSingleCharacterFunctions, functionArrayLength)
 	}
 
