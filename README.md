@@ -22,8 +22,7 @@ bfx861[X<26-b^UT
 - With [Homebrew](https://docs.brew.sh/Installation)
 
 ```
-$ brew tap doctorpoor/pwdrng
-$ brew install pwdrng
+$ brew tap doctorpoor/pwdrng && brew install pwdrng
 ```
 
 - With [Go](https://go.dev/doc/install)
@@ -39,13 +38,18 @@ $ pwdrng -h
 ```
 
 ```
+Name:
+  pwdrng - Simple command-line tool to generate passwords
+
+Usage:
+  pwdrng [length]
+
+Arguments:
+  length    length of the generated password (optional, default 16)
+
 Example usage:
   pwdrng
-  pwdrng -l 32
-
-Flags:
-  -l, -length, --length int
-    length of the generated password (default 16)
+  pwdrng 32
 
 Further help:
   https://github.com/doctorpoor/pwdrng
