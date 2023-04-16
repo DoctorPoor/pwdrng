@@ -9,7 +9,7 @@
 Simple command-line tool to generate passwords
 
 ```
-$ pwdrng
+pwdrng
 ```
 
 ```
@@ -19,22 +19,22 @@ bfx861[X<26-b^UT
 
 ## Installation
 
-- With [Homebrew](https://docs.brew.sh/Installation)
+With [Homebrew](https://docs.brew.sh/Installation)
 
 ```
-$ brew tap doctorpoor/pwdrng && brew install pwdrng
+brew tap doctorpoor/pwdrng && brew install pwdrng
 ```
 
-- With [Go](https://go.dev/doc/install)
+With [Go](https://go.dev/doc/install)
 
 ```
-$ go install github.com/doctorpoor/pwdrng@latest
+go install github.com/doctorpoor/pwdrng@latest
 ```
 
 ## Usage
 
 ```
-$ pwdrng -h
+pwdrng -h
 ```
 
 ```
