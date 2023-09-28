@@ -23,7 +23,7 @@ func getRandomInteger() string {
 }
 
 func getRandomSpecialCharater() string {
-	return getRandomFromArray([]string{" ", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"})
+	return getRandomFromArray([]string{"!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"})
 }
 
 func getRandomCharacter(getSingleCharacterFunctions []func() string, arrayLength int) string {
